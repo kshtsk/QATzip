@@ -46,6 +46,7 @@ libqatzip_la_SOURCES = \
 libqatzip_la_CFLAGS = \
                       -I./ \
                       -I../include/ \
+		      -Wno-strict-prototypes \
                       $(COMMON_CFLAGS) \
                       $(SAL_CFLAGS) \
                       $(ADF_CFLAGS) \

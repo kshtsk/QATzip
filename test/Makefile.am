@@ -38,6 +38,7 @@ test_CFLAGS = \
               -I$(abs_top_srcdir)/include/ \
               -I$(abs_top_srcdir)/src/    \
               -I$(abs_top_srcdir)/utils/  \
+	      -Wno-strict-prototypes \
               $(COMMON_CFLAGS) \
               $(ICP_INCLUDE_CFLAGS)
 test_LDADD = \
@@ -52,6 +53,7 @@ bt_CFLAGS = \
            -I$(abs_top_srcdir)/include/ \
            -I$(abs_top_srcdir)/src/    \
            -I$(abs_top_srcdir)/utils/  \
+           -Wno-strict-prototypes \
            $(COMMON_CFLAGS) \
            $(ICP_INCLUDE_CFLAGS)
 bt_LDADD = \

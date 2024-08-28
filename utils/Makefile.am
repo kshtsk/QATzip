@@ -41,6 +41,7 @@ qzip_CFLAGS = \
               -I$(abs_top_srcdir)/include/ \
               -I$(abs_top_srcdir)/src/    \
               -I$(abs_top_srcdir)/utils/  \
+              -Wno-strict-prototypes \
               $(COMMON_CFLAGS) \
               $(ICP_INCLUDE_CFLAGS)
 qzip_LDADD = \
