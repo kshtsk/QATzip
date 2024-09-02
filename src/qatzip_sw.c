@@ -732,3 +732,4 @@ int qzSWDecompressMulti(QzSession_T *sess, const unsigned char *src,
     }
     return ret;
 }
+
